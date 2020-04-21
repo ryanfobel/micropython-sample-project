@@ -9,5 +9,5 @@ class Service(BaseService):
 
     # This function runs continuously
     async def loop(self):
-        print('[%s] state=%s' % (self.__module__, self._state))
+        print('[%s] state=%s' % (self.__module__, self.state))
         await asyncio.sleep(10)
