@@ -1,8 +1,8 @@
-from supervisor import BaseApp
+from supervisor import BaseService
 import uasyncio as asyncio
 
 
-class App(BaseApp):
+class Service(BaseService):
     # Setup
     def __init__(self):
         super().__init__()
