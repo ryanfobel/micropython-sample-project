@@ -10,4 +10,4 @@ class Service(BaseService):
     # This function runs continuously
     async def loop(self):
         self.logger.debug('state=%s' % self.state)
-        await asyncio.sleep(10)
+        await asyncio.sleep(60)
